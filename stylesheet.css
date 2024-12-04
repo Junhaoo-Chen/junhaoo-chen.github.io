@@ -140,3 +140,17 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* Footnote CSS */
+.footnote {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+  color: #888;
+}
+
+.footnote a {
+  color: #888;
+  text-decoration: none;
+}
