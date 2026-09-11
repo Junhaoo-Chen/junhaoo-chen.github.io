@@ -154,3 +154,33 @@ span.highlight {
   color: #888;
   text-decoration: none;
 }
+
+.legal-page {
+  width: min(720px, calc(100% - 40px));
+  margin: 56px auto 80px;
+  color: #333;
+  line-height: 1.65;
+}
+
+.legal-page h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.legal-page h2 {
+  margin: 30px 0 8px;
+  font-size: 20px;
+}
+
+.legal-page p {
+  margin: 0 0 14px;
+}
+
+.legal-page a {
+  color: #1772b6;
+}
+
+@media (prefers-color-scheme: dark) {
+  .legal-page { color: #ddd; }
+}
